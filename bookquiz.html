@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Quiz</title>
+        
+    </head>
+    <body>
+        <h1>Book Recommendation Quiz</h1>
+        
+        <li><a class="nav" href="index.html">Home</a></li>
+        <li><a class="nav" href="about.html">About</a></li>
+        <li><a class="nav" href="contact.html">Contact</a></li>
+        <li><a class="nav">Book Quiz</a></li>
+            
+        <h3>Take this quiz for book recommendations!</h3>
+        <p class="start">For all answers, please type your selection in the box exactly as it appears above.</p>
+        <button class="start">Start Quiz</button>
+        <p class="question">What age group do you belong to?</p>
+        <ul class="question">
+            <li>Child</li>
+            <li>Teen/Young Adult</li>
+        </ul>
+        <input type="text" id="age" class="question" name="ageGroup">
+        <button class="question" class="submit">Submit</button>
+        <br>
+        
+        <p class="qOne">1. What is your favourite genre?</p>
+        <ul class="qOne">
+            <li>Science Fiction</li>
+            <li>Fantasy</li>
+            <li>Historical Fiction</li>
+            <li>Mystery</li>
+            <li>Realistic Fiction</li>
+            <li>Mythology</li>
+            <li>Classics</li>
+        </ul>
+        <input type="text" id="fgans" class="qOne" name="favGenre">
+        <button class="qOne" class="submit">Submit</button>
+        
+        <p class="qgen">2. What is your second-favourite genre?</p>
+        <ul class="qgen">
+            <li>Science Fiction</li>
+            <li>Fantasy</li>
+            <li>Historical Fiction</li>
+            <li>Mystery</li>
+            <li>Realistic Fiction</li>
+            <li>Mythology</li>
+            <li>Classics</li>
+        </ul>
+        <input type="text" id="sfgans" class="qgen" name="sndFavGenre">
+        <button class="qgen" class="submit">Submit</button>
+        
+        <p class="qTwo">3. What is something (such as a theme) you like in books?</p>
+        <ul class="qTwo">
+            <li>Family</li>
+            <li>Books/Words</li>
+            <li>Romance</li>
+            <li>Secret Organizations</li>
+            <li>Royalty</li>
+            <li>Friends</li>
+        </ul>
+        <input type="text" id="ftans" class="qTwo" name="favTheme">
+        <button class="qTwo" class="submit">Submit</button>
+        
+        <p class="qThree">4. What is another thing (such as a theme) you like in books?</p>
+        <ul class="qThree">
+        <li>Family</li>
+            <li>Books/Words</li>
+            <li>Romance</li>
+            <li>Secret Organizations</li>
+            <li>Royalty</li> 
+            <li>Friends</li>
+        </ul>
+        <input type="text" id="sftans" class="qThree" name="sndFavTheme">
+        <button class="qThree" class="submit">Submit</button>
+        
+        <p id="test"></p>
+        
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="quizcode.js"></script>
+    </body>
+</html>
