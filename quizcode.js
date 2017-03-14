@@ -39,6 +39,8 @@ $(".start").click(function() {
                         
                         var themeAnsTwo = $("#stgans").val();
                         
+                        
+                        
                     });
                 });
             });
