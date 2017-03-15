@@ -4,6 +4,7 @@ $(".qOne").hide();
 $(".qgen").hide();
 $(".qTwo").hide();
 $(".qThree").hide();
+$("#results").hide();
 
 $(".start").click(function() {
     $(".start").hide();
@@ -36,10 +37,19 @@ $(".start").click(function() {
                     
                     $("button").click(function() {
                         $(".qThree").hide();
+                        $("#results").show();
                         
                         var themeAnsTwo = $("#stgans").val();
                         
-                        
+                        if (age === "Child"){
+                            if (fgans === "Mythology" || sfgans === "Mythology"){
+                                $("#results").append("Children's Mythology Books - Amazon: https://www.amazon.com/Best-Sellers-Books-Childrens-Folk-Tales-Myths/zgbs/books/2977/ref=zg_bs_unv_b_3_2990_1");
+                            }
+                        } if else (age === "Teen/Young Adult"){
+                            
+                        } else {
+                            
+                        }
                         
                     });
                 });
